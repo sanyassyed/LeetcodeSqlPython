@@ -1,24 +1,22 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        l = [0] * 26
+        h_s = {}
+        h_t = {}
         l_s = len(s)
         l_t = len(t)
-        a = ord('a')
+
         if l_s != l_t:
             return False
+        
         for i in range(l_s):
-            sc = s[i]
-            sc_pos = ord(sc) - a
-            l[sc_pos] += 1
+            c_s = s[i]
+            h_s[c_s] = h_s.get(c_s, 0) + 1
+            c_t = t[i] 
+            h_t[c_t] = h_t.get(c_t, 0) + 1
 
-            tc = t[i]
-            tc_pos = ord(tc) - a
-            l[tc_pos] -= 1
 
-        for v in l:
-            if v != 0:
+        for k in h_s:
+            if h_s[k] != h_t.get(k, 0):
                 return False
 
-        return True
-            
-        
+        return True       
