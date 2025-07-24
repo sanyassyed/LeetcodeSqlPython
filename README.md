@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0219-contains-duplicate-ii) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Hash Table
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0242-valid-anagram) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## String
 |  |
 | ------- |
@@ -37,8 +39,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0217-contains-duplicate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0242-valid-anagram) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Sliding Window
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0219-contains-duplicate-ii) |
+## Greedy
+|  |
+| ------- |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+## Simulation
+|  |
+| ------- |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 <!---LeetCode Topics End-->
