@@ -30,10 +30,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0242-valid-anagram) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 ## String
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0242-valid-anagram) |
+| [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 ## Sorting
 |  |
 | ------- |
@@ -56,4 +58,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+## Counting
+|  |
+| ------- |
+| [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 <!---LeetCode Topics End-->
