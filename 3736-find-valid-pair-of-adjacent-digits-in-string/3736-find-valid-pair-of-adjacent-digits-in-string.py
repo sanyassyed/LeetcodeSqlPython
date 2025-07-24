@@ -1,20 +1,12 @@
 class Solution:
     def findValidPair(self, s: str) -> str:
-        hash_num = [0] * 9
-        for c in s:
-            i = int(c) - 1
-            hash_num[i] += 1
+        cnt = collections.Counter(s)
 
-        x, y = 0, 1
+        for i, c in enumerate(s):
+            if i == 0: continue
+            if s[i] != s[i-1] and int(c) == cnt[c] and int(s[i-1]) == cnt[s[i-1]]:
+                return(s[i-1:i+1])
 
-        while x <= len(s) - 2 and y <= len(s) - 1:
-            l = int(s[x])
-            r = int(s[y])
-            if l != r and l == hash_num[l-1] and r == hash_num[r-1]:
-                return (s[x:y+1]) 
-            x += 1
-            y += 1
-        
         return ""
 
         
