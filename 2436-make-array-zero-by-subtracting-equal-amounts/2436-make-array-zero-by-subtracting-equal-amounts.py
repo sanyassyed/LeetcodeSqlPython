@@ -3,7 +3,7 @@ def min_value(nums: List[int]):
     for n in nums:
         if n != 0 and min_n != 0 and n < min_n:
             min_n = n
-        elif n != 0: # min_n == 0
+        elif min_n == 0:
             min_n = n  
     return min_n
 
