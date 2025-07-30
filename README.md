@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0219-contains-duplicate-ii) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0242-valid-anagram) |
@@ -37,11 +39,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0242-valid-anagram) |
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0242-valid-anagram) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
