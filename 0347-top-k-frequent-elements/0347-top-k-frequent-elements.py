@@ -1,22 +1,18 @@
-import numpy as np
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        hash_map = {}
-        result = []
-        counter = 1
+        count = {}
+        freq = [[] for i in range(len(nums)+1)]
+
         for n in nums:
-            hash_map[n] = hash_map.get(n, 0) + 1
-        # print(hash_map)
-        for (i,j) in sorted(hash_map.items(), key=lambda item: item[1], reverse=True):
-            if counter <= k:
-                result.append(i)
-            counter += 1
+            count[n] = 1 + count.get(n, 0)
 
-        return result
+        for v, c in count.items():
+            freq[c].append(v)
 
-        
-                
+        res = []
 
-
-
-        
+        for i in range(len(freq)-1, 0, -1):
+            for x in freq[i]:
+                res.append(x)
+            if len(res) == k:
+                return res
