@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1258-article-views-i](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1258-article-views-i) |
 | [1268-market-analysis-i](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1268-market-analysis-i) |
+| [1908-recyclable-and-low-fat-products](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1908-recyclable-and-low-fat-products) |
 ## Array
 |  |
 | ------- |
