@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0219-contains-duplicate-ii) |
+| [0238-product-of-array-except-self](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0347-top-k-frequent-elements) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Hash Table
@@ -100,4 +101,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0347-top-k-frequent-elements) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
