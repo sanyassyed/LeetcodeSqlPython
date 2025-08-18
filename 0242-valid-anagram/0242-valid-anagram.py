@@ -1,20 +1,27 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        vals = [0] * 26
-        ord_a = ord('a')
+        l_s = len(s)
+        l_t = len(t)
 
-        if len(s) != len(t):
+        if l_s != l_t:
             return False
 
+        maps = [0] * 26
+        ord_a = ord('a')
+
         for c in s:
-            ord_c = ord(c) - ord_a
-            vals[ord_c] += 1
+            maps[ord(c) - ord_a ] += 1
+
 
         for c in t:
-            ord_c = ord(c) - ord_a
-            if vals[ord_c] != 0:
-                vals[ord_c] -= 1
-            else:
+            if maps[ord(c) - ord_a] == 0:
                 return False
+            maps[ord(c) - ord_a] -= 1
 
         return True
+
+        
+            
+
+
+        
