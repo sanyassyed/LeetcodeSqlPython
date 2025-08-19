@@ -2,14 +2,11 @@
 WITH cte
 AS
 (
-SELECT product_id,
-       year,
-       FIRST_VALUE(year) OVER (PARTITION BY product_id ORDER BY year ASC) first_year,
-       quantity,
-       price
+SELECT *,
+       FIRST_VALUE(year) OVER (PARTITION BY product_id ORDER BY year ASC) first_year
 FROM Sales
 )
-SELECT product_id,
+SELECT product_id, 
        first_year,
        quantity,
        price
