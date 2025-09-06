@@ -1,14 +1,14 @@
 # Write your MySQL query statement below
-WITH cte
+WITH detail_seat_cte
 AS
 (
 SELECT *,
-       IF(id % 2 = 0, id - 1 , id + 1) next_id
+       LEAD(student) OVER w next,
+       LAG(student) OVER w prev
 FROM Seat
+WINDOW w AS (ORDER BY id ASC)
 )
-SELECT c.id,
-       IFNULL(s.student, c.student) student
-FROM cte c
-     LEFT JOIN
-     Seat s 
-     ON c.next_id = s.id;
+SELECT id,
+       IFNULL(IF(id%2 = 0, prev, next), student) student
+FROM detail_seat_cte
+ORDER BY id ASC;
