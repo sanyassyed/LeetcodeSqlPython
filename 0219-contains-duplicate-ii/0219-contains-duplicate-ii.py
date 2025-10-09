@@ -1,11 +1,16 @@
-class Solution:
-    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
-        hash_n = defaultdict(list)
-        for i in range(len(nums)):
-            if nums[i] in hash_n:
-                for x in hash_n[nums[i]]:
-                    if abs(x - i) <= k:
-                        return True
-            hash_n[nums[i]].append(i)
-        
+class Solution(object):
+    def containsNearbyDuplicate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: bool
+        """
+        record = {}
+
+        for i, n in enumerate(nums):
+            if n in record:
+                if abs(i-record[n]) <= k:
+                    return True
+            record[n] = i
+
         return False
