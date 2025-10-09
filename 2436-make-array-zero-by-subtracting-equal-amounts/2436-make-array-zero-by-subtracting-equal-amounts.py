@@ -1,22 +1,26 @@
-def min_value(nums: List[int]):
+def find_min(nums):
     min_n = 0
     for n in nums:
-        if n != 0 and min_n != 0 and n < min_n:
+        if min_n == 0 and n != 0:
             min_n = n
-        elif min_n == 0:
-            min_n = n  
+        elif n != 0:
+            min_n = min(min_n, n)
     return min_n
+        
 
 class Solution:
-    def minimumOperations(self, nums: List[int]) -> int:
-        cntr = 0
+    def minimumOperations(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        counter = 0
         while True:
-            min_num = min_value(nums)
-            if min_num == 0:
-                return cntr
-            cntr += 1
-            for i in range(len(nums)):
-                n = nums[i]
-                nums[i] = n - min_num if n != 0 else n
+            min_n = find_min(nums)
+            print(min_n)
+            if min_n == 0:
+                return counter
+            nums = [x-min_n if x !=0 else x for x in nums]
+            counter += 1
 
-        
+        return counter
