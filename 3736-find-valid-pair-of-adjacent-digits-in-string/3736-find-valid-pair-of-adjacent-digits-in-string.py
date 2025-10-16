@@ -1,19 +1,20 @@
 class Solution:
     def findValidPair(self, s: str) -> str:
-        hash_map = {}
+        scan = [0] * 10
+
         for c in s:
-            hash_map[c] = hash_map.get(c, 0) + 1
+            scan[int(c)] += 1
 
         i, j = 0, 1
 
-        while i < j and j < len(s):
-            l = s[i]
-            r = s[j]
-            if l != r and hash_map.get(l, 0) == int(l) and hash_map.get(r, 0) == int(r):
-                return f"{l}{r}"
+        while i<j and j<len(s):
+            l = int(s[i])
+            r = int(s[j])
+            if l != r and scan[l] == l and scan[r] == r:
+                return s[i] + s[j]
+
             i += 1
             j += 1
+
         return ""
-
-
         
