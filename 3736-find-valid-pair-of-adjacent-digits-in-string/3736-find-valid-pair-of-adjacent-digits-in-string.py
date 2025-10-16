@@ -1,12 +1,19 @@
 class Solution:
     def findValidPair(self, s: str) -> str:
-        cnt = collections.Counter(s)
+        hash_map = {}
+        for c in s:
+            hash_map[c] = hash_map.get(c, 0) + 1
 
-        for i, c in enumerate(s):
-            if i == 0: continue
-            if s[i] != s[i-1] and int(c) == cnt[c] and int(s[i-1]) == cnt[s[i-1]]:
-                return(s[i-1:i+1])
+        i, j = 0, 1
 
+        while i < j and j < len(s):
+            l = s[i]
+            r = s[j]
+            if l != r and hash_map.get(l, 0) == int(l) and hash_map.get(r, 0) == int(r):
+                return f"{l}{r}"
+            i += 1
+            j += 1
         return ""
+
 
         
