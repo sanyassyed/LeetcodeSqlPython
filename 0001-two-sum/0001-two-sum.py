@@ -1,11 +1,11 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        hash_n = {}
+        seen = defaultdict(list)
+
         for i in range(len(nums)):
             diff = target - nums[i]
-            if diff in hash_n:
-                return [hash_n[diff], i]
-            hash_n[nums[i]] = i
+            if diff in seen:
+                return [i, seen[diff][0]]
+            seen[nums[i]].append(i)
 
-        return None
-        
+        return [0, 0]
