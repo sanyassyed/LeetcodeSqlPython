@@ -1,21 +1,22 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        if len(s) != len(t):
+        len_s = len(s)
+        len_t = len(t)
+
+        if len_s != len_t:
             return False
-        data_dict = [0] * 26
 
-        for i in range(len(s)):
-            ord_a = ord('a')
-            s_i = ord(s[i]) - ord_a
-            data_dict[s_i] += 1
+        ord_a = ord('a')
+        count = [0] * 26
 
-        for i in range(len(t)):
-            t_i = ord(t[i]) - ord_a
-            if data_dict[t_i] == 0:
+        for x in s:
+            pos_x = ord_a - ord(x)
+            count[pos_x] += 1
+
+        for x in t:
+            pos_x = ord_a - ord(x)
+            if count[pos_x] == 0:
                 return False
-            data_dict[t_i] -= 1
+            count[pos_x] -= 1
 
         return True
-
-        
-        
