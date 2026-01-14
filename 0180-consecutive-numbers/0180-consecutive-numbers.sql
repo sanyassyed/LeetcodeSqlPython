@@ -1,14 +1,14 @@
 # Write your MySQL query statement below
-WITH numPrevNextCte
+WITH logs_prev_next
 AS
 (
-SELECT id,
-       num,
-       LAG(num) OVER w prev,
-       LEAD(num) OVER w next
+SELECT num,
+       LEAD(num) OVER w next,
+       LAG(num) OVER w prev
 FROM Logs
 WINDOW w AS (ORDER BY id ASC)
 )
 SELECT DISTINCT num ConsecutiveNums
-FROM numPrevNextCte
-WHERE num = prev AND num= next;
+FROM logs_prev_next
+WHERE num = next AND
+      num = prev;
