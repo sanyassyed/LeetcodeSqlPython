@@ -4,9 +4,10 @@ class Solution:
         for i, n in enumerate(nums):
             if n in seen:
                 for v in seen[n]:
-                    if abs(v-i) <= k:
+                    diff = abs(i-v)
+                    if diff <= k:
                         return True
             seen[n].append(i)
 
         return False
-    
+
