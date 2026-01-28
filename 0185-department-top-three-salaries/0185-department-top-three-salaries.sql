@@ -1,17 +1,17 @@
 # Write your MySQL query statement below
-WITH ranked_cte
+WITH ranked_salary_cte
 AS
 (
-SELECT departmentId,
-       name,
-       salary,
-       DENSE_RANK() OVER (PARTITION BY departmentId ORDER BY salary DESC) rnk
-FROM Employee
-)
 SELECT d.name Department,
        e.name Employee,
-       e.salary Salary
-FROM ranked_cte e,
+       e.salary Salary,
+       DENSE_RANK() OVER (PARTITION BY d.name ORDER BY e.salary DESC) rnk
+FROM Employee e,
      Department d
-WHERE d.id = e.departmentId AND rnk < 4;
-       
+WHERE e.departmentId = d.id
+)
+SELECT Department,
+       Employee,
+       Salary
+FROM ranked_salary_cte
+WHERE rnk <= 3;
