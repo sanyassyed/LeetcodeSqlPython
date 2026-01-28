@@ -1,11 +1,11 @@
 # Write your MySQL query statement below
-WITH numbered_cte
+WITH main_ids
 AS
-(SELECT id,
-       ROW_NUMBER() OVER (PARTITION BY email ORDER BY id ASC) rw_num
+(
+SELECT MIN(id) id
 FROM Person
+GROUP BY email
 )
-DELETE FROM Person 
-WHERE id IN (SELECT id 
-FROM numbered_cte 
-WHERE rw_num != 1);
+DELETE FROM
+Person
+WHERE id NOT IN (SELECT id FROM main_ids);
