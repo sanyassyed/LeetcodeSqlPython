@@ -178,4 +178,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
