@@ -1,21 +1,35 @@
 # Write your MySQL query statement below
-WITH cte_total
-as
+WITH all_users
+AS
 (
 SELECT requester_id id,
-       COUNT(*) friends
+       COUNT(accepter_id) num
 FROM RequestAccepted
 GROUP BY requester_id
 UNION ALL
 SELECT accepter_id id,
-       COUNT(*) friends
+       COUNT(requester_id) num
 FROM RequestAccepted
 GROUP BY accepter_id
+),
+aggregated_users
+AS
+(
+SELECT id,
+       SUM(num) num
+FROM all_users
+GROUP BY id
+),
+ranked_users
+AS
+(
+SELECT id,
+       num,
+       DENSE_RANK() OVER (ORDER BY num DESC) rnk
+FROM aggregated_users
 )
 SELECT id,
-       SUM(friends) num
-FROM cte_total
-GROUP BY id
-ORDER BY SUM(friends) DESC
-LIMIT 1;;
-       
+       num
+FROM ranked_users
+WHERE rnk =1
+;
