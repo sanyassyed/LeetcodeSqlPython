@@ -2,21 +2,19 @@
 WITH all_users
 AS
 (
-SELECT requester_id id,
-       COUNT(accepter_id) num
+SELECT requester_id id
 FROM RequestAccepted
-GROUP BY requester_id
+
 UNION ALL
-SELECT accepter_id id,
-       COUNT(requester_id) num
+SELECT accepter_id id
 FROM RequestAccepted
-GROUP BY accepter_id
+
 ),
 aggregated_users
 AS
 (
 SELECT id,
-       SUM(num) num
+       COUNT(id) num
 FROM all_users
 GROUP BY id
 ),
