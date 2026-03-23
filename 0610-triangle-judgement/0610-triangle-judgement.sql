@@ -1,4 +1,4 @@
 # Write your MySQL query statement below
 SELECT *,
-       IF(x < y+z AND y < x+z AND z < x+y, 'Yes', 'No') triangle
+       IF(x+y > z, IF(y+z > x, IF(z+x > y, 'Yes', 'No'), 'No'), 'No') triangle
 FROM Triangle;
