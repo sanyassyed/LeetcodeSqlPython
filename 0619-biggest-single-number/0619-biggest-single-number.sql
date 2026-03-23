@@ -1,12 +1,11 @@
 # Write your MySQL query statement below
-WITH cte
+WITH single_occurances
 AS
 (
-SELECT num,
-       COUNT(*) total_occurance
+SELECT num
 FROM MyNumbers
 GROUP BY num
+HAVING COUNT(*) = 1
 )
 SELECT MAX(num) num
-FROM cte
-WHERE total_occurance = 1;
+FROM single_occurances;
