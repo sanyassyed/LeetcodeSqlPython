@@ -1,12 +1,13 @@
 # Write your MySQL query statement below
-WITH red_sales_agent 
+WITH red_sales_agents
 AS
 (
-SELECT o.sales_id
-FROM orders o LEFT JOIN
-     company c ON o.com_id = c.com_id
-WHERE c.name LIKE "RED" 
+SELECT DISTINCT o.sales_id
+FROM Orders o,
+     Company c
+WHERE o.com_id = c.com_id AND
+      c.name = 'RED'
 )
 SELECT name
-FROM SalesPerson 
-WHERE sales_id NOT IN (SELECT DISTINCT sales_id FROM red_sales_agent);
+FROM SalesPerson
+WHERE sales_id NOT IN (SELECT sales_id FROM red_sales_agents);
