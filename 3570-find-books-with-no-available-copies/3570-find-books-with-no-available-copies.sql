@@ -18,6 +18,6 @@ SELECT l.book_id,
 FROM library_books l,
      books_out b
 WHERE l.book_id = b.book_id AND
-      l.total_copies - b.total_borrowed = 0
+      l.total_copies = b.total_borrowed
 ORDER BY b.total_borrowed DESC,
          l.title ASC;
