@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2057-count-salary-categories](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2057-count-salary-categories) |
 | [2087-confirmation-rate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2087-confirmation-rate) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2127-employees-whose-manager-left-the-company) |
+| [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 | [3436-find-valid-emails](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/3436-find-valid-emails) |
 | [3570-find-books-with-no-available-copies](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/3570-find-books-with-no-available-copies) |
