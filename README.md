@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1801-average-time-of-process-per-machine](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1801-average-time-of-process-per-machine) |
 | [1811-fix-names-in-a-table](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1811-fix-names-in-a-table) |
 | [1827-invalid-tweets](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1827-invalid-tweets) |
+| [1873-calculate-special-bonus](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1873-calculate-special-bonus) |
 | [1877-find-followers-count](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1877-find-followers-count) |
 | [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [1890-the-latest-login-in-2020](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1890-the-latest-login-in-2020) |
