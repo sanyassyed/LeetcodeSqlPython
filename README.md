@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1827-invalid-tweets](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1827-invalid-tweets) |
 | [1877-find-followers-count](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1877-find-followers-count) |
 | [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
+| [1890-the-latest-login-in-2020](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1890-the-latest-login-in-2020) |
 | [1908-recyclable-and-low-fat-products](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1908-recyclable-and-low-fat-products) |
 | [1934-confirmation-rate](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1934-confirmation-rate) |
 | [1942-primary-department-for-each-employee](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1942-primary-department-for-each-employee) |
