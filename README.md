@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1670-patients-with-a-condition](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1670-patients-with-a-condition) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1773-percentage-of-users-attended-a-contest) |
+| [1789-primary-department-for-each-employee](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1789-primary-department-for-each-employee) |
 | [1795-rearrange-products-table](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1795-rearrange-products-table) |
 | [1801-average-time-of-process-per-machine](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1801-average-time-of-process-per-machine) |
 | [1811-fix-names-in-a-table](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1811-fix-names-in-a-table) |
