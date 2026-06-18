@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1664-find-users-with-valid-e-mails](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1664-find-users-with-valid-e-mails) |
 | [1670-patients-with-a-condition](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1670-patients-with-a-condition) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+| [1757-recyclable-and-low-fat-products](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1757-recyclable-and-low-fat-products) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1773-percentage-of-users-attended-a-contest) |
 | [1789-primary-department-for-each-employee](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1789-primary-department-for-each-employee) |
 | [1795-rearrange-products-table](https://github.com/sanyassyed/LeetcodeSqlPython/tree/master/1795-rearrange-products-table) |
